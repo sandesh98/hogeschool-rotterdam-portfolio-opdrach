@@ -1,0 +1,71 @@
+html, body{
+    font-family: 'Quicksand', sans-serif;
+}
+
+hr {
+    background-color: white;
+    height: 2px;
+}
+
+.name {
+    font-family: 'Sriracha', cursive;
+    font-size: 1.6em;
+}
+
+.shadow {
+    box-shadow: 10px 10px 5px grey;
+}
+
+.description {
+    font-size: 1.2em;
+    /* text-align: justify; */
+}
+
+.title {
+    font-size: 4rem;
+}
+
+.sub-title {
+    font-size: 3em;
+}
+
+.workshop-title {
+    font-size: 1.5em;
+}
+
+.fp-controlArrow.fp-prev {
+    left: 50px;
+}
+
+.fp-controlArrow.fp-next{
+    right: 50px;
+}
+
+#fp-nav ul li a span, .fp-slidesNav ul li a span {
+    background: white;
+}
+
+.workshop-margin {
+    margin: 150px 0 300px 0;
+}
+
+#slide1{
+    background: -webkit-gradient(linear, top, bottom, from(#2b5876), to(#345376));
+    background: -webkit-linear-gradient(#2b5876, #345376);
+    background: linear-gradient(#2b5876, #345376);
+}
+#slide2{
+    background: -webkit-gradient(linear, top, bottom, from(#345376), to(#3c4e76));
+    background: -webkit-linear-gradient(#345376, #3c4e76);
+    background: linear-gradient(#345376,#3c4e76);
+}
+#slide3{
+    background: -webkit-gradient(linear, top, bottom, from(#3c4e76), to(#464876));
+    background: -webkit-linear-gradient(#3c4e76, #464876);
+    background: linear-gradient(#3c4e76,#464876);
+}
+#slide4{
+    background: -webkit-gradient(linear, top, bottom, from(#464876), to(#4e4376));
+    background: -webkit-linear-gradient(#464876, #4e4376);
+    background: linear-gradient(#464876,#4e4376);
+}
